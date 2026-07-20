@@ -1,0 +1,8 @@
+import math
+
+def volume(radius):
+    v=(4/3)*(3.14)*(math.pow(radius,3))
+    return(v)
+radius = int(input("Enter the radius of the sphere:"))
+temp=volume(radius)
+print("The volume of the sphere is",temp)
